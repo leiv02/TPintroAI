@@ -67,7 +67,7 @@ def construct_path(node):
         node = node.parent
     return path[::-1]  # reverse the path to get from start to goal
 
-# Example usage:
+
 start_node = Node('Start')
 goal_node = Node('Goal')
 
